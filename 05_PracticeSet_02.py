@@ -72,6 +72,60 @@ print(name[2:10])
 print(name[-1])
 
 
+#####################################
+# Slicing with Skip value in Strings
+#####################################
+
+skippingName = input("Enter Name to Slice:")
+print(skippingName[0::2])
+
+#######################
+# String Functions
+######################
+
+story = input("Enter you String here:")
+print(len(story))
+print(story.endswith("saeem"))   # String ending with some certain character
+print(story.count("s"))     # Counts the number of times it appears
+print(story.capitalize())   # Capitalizes the first alphabet
+
+
+#######################
+# String Practice
+#######################
+
+# Write a program to display a user name followed by "Good Afternoon"
+
+greetingName = input("Enter Name:")
+print(greetingName + "! " "Good Afternoon")
+
+
+# Write a program to Write a letter with a template
+'''Dear <Name>
+You are selected 
+<Date>'''
+
+from datetime import date
+
+today = date.today()
+
+name = input("Enter Name:")
+
+print("Dear ", name, "\n You are selected!" "\n", today)
+
+
+# Write a Program to detect double space in a string
+
+inputString = input("Input String: ")
+detectString = inputString.__contains__("  ")
+detectString = inputString.find("  ")
+
+#Replace with Single space
+detectString = inputString.replace("  ", " ")
+print(detectString)
+
+
+
 
 
 
