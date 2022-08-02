@@ -157,6 +157,33 @@ print(listC)
 
 
 
+###################################################
+# Tuples Data Type - Cannot be Changed unlike List
+###################################################
+
+# Create Tuples using ()
+tupleA = (1, 2, 4, 8, 9, 56)
+print(tupleA)
+emptyTuple = ()      # Empty Tuple
+print(emptyTuple)
+t1 = (1,)            # Tuple with Single element
+print(t1)
+print(type(t1))
+tupleB = ("JAVA", "Python", 23, 4.5, False, 23, "Python")
+print(tupleB)
+
+s = tupleB.index("Python")
+t = tupleB.count(23)
+print(s)
+print(t)
+
+# tupleB[1] = "PHP"         #Can't change Tuple items
+
+
+
+
+
+
 
 
 
