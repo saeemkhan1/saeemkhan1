@@ -236,6 +236,54 @@ print(tupleZeroCount.count(0))
 
 
 
+######################
+# Dictionary & Sets
+######################
+
+myDictionary = {
+    "fast": "Usain Bolt",
+    "genius": "Albert Einstein",
+    "fittest": "Mr. Olympia",
+    "marks": [1, 2, 5],
+    "dictionarywithinadictionary": {'Mr. Olympia': 'Arnold'},
+    1: 2
+
+}
+print(type(myDictionary))   # Printing the 'Type' Dictionary
+print(myDictionary)         # Printing the content of the Dictionary
+m = (list(myDictionary))    # Changing the 'type' from 'dict' to 'list' using Typecasting
+print(type(m))              # Printing the new 'type' of the Dictionary, which is now 'List'
+
+
+#####################
+# Dictionary Methods
+#####################
+
+print(myDictionary.keys())      # Prints the keys of the Dictionary
+print(myDictionary.values())    # Prints the values of the Dictionary
+print(myDictionary.items())     # Prints the [key, values] (all contents) of the Dictionary
+
+myDictionary.update({"fast": "Saeem Khan"})
+myDictionary.update({"genius": "SDK"})
+
+dictionaryUpdate = {
+    "slow": "Mr. Slow",
+    "medium": "Mr. Medium",
+    "Average Marks": [81.8, 92.9, 85, True]
+}
+myDictionary.update(dictionaryUpdate)       # Updates the Dictionary by adding key-value pairs from "dictionaryUpdate"
+
+print(myDictionary.items())
+
+print(myDictionary.get("medium"))      # Prints value associated with key "medium"
+
+print(myDictionary["medium"])          # Prints value associated with key "medium"
+
+print(myDictionary.get("medium2"))     # Will return None as "medium2" is not present in the Dictionary
+
+print(myDictionary["medium2"])         # Will throw an error as "medium2" is not present in the Dictionary
+
+
 
 
 
