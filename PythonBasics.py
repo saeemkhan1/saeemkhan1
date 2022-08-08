@@ -408,3 +408,53 @@ friendsLanguage[name2] = language2
 friendsLanguage[name3] = language3
 friendsLanguage[name4] = language4
 print(friendsLanguage)
+
+
+
+##########################
+# Conditional Expressions
+##########################
+
+# If - else Statement
+
+a = 4
+
+if a < 5:
+    print("Number is less than 5")
+elif a > 5:
+    print("Number is greater than 5")
+
+# Write a Python program to print "Adult" when the age entered by the user is greater than or equal to 18
+
+age = int(input("Enter your Age: \n"))
+
+if age >= 18:
+    print("Adult")
+elif age < 18:
+    print("Not an Adult")
+
+    
+# Write a program to find the largest of 4 numbers entered by the user
+
+a = int(input("Enter 1st number: \n"))
+b = int(input("Enter 2nd number: \n"))
+c = int(input("Enter 3rd number: \n"))
+d = int(input("Enter 4th number: \n"))
+
+if a>b and a>c and a>d:
+    num1 = a
+    print("The biggest number is:", num1)
+elif b>a and b>c and b>d:
+    num2 = b
+    print("The biggest number is:", num2)
+elif c>a and c>b and c>d:
+    num3 = c
+    print("The biggest number is:", num3)
+else:
+    num4 = d
+    print("The biggest number is:", num4)
+
+
+
+
+    
