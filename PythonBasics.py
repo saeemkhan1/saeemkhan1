@@ -384,3 +384,27 @@ v = {}
 print(type(v))
 
 
+# Create an empty Dictionary. Allow 4 friends to input their language as value and use keys as their names
+# Assume their names are unique
+# Ex {"John" : "English",
+#      "Harry" : "Greek",
+#       "Saeem": "Bengali",
+#       "Mo": "Arabic"
+# }
+
+friendsLanguage = {}
+
+name1 = input("Enter your Name: ")
+language1 = input("Enter your Language: ")
+name2 = input("Enter your Name: ")
+language2 = input("Enter your Language: ")
+name3 = input("Enter your Name: ")
+language3 = input("Enter your Language: ")
+name4 = input("Enter your Name: ")
+language4 = input("Enter your Language: ")
+
+friendsLanguage[name1] = language1
+friendsLanguage[name2] = language2
+friendsLanguage[name3] = language3
+friendsLanguage[name4] = language4
+print(friendsLanguage)
