@@ -492,3 +492,15 @@ elif "Click the Ad" in sentence:
 else:
     print("Not a Spam")
     
+    
+    
+# Write a program to find if a Username is less than 10 character or not
+
+username = input("Enter Username: \n")
+lengthUsername = username.__len__()
+if lengthUsername > 10:
+    print("Username Accepted")
+else:
+    print("Username too short")
+        
+    
