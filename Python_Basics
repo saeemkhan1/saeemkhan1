@@ -476,4 +476,19 @@ else:
     print("Failed")
 
 
+# A Spam comment is defined as a text containing following keywords
+# "Make a lot of money", "Buy now", "Subscribe", "Click the Ad"
+# Write a Python program to detect a Spam
+
+sentence = input("Enter the Sentence: \n")
+if "Make a lot of money" in sentence:
+    print("Spam")
+elif "Buy now" in sentence:
+    print("Spam")
+elif "Subscribe" in sentence:
+    print("Spam")
+elif "Click the Ad" in sentence:
+    print("Spam")
+else:
+    print("Not a Spam")
     
