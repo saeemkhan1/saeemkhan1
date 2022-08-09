@@ -503,4 +503,24 @@ if lengthUsername > 10:
 else:
     print("Username too short")
         
-    
+   
+  
+# Write a Python program to find out whether a name is in the List or not
+
+nameList = []
+a = input("Enter Student Name: \n")
+b = input("Enter Student Name: \n")
+c = input("Enter Student Name: \n")
+d = input("Enter Student Name: \n")
+e = input("Enter Student Name: \n")
+
+nameList = [a, b, c, d, e]
+print(nameList)
+
+'''Finding the name '''
+findName = input("Check Student Name: \n")
+
+if findName in nameList:
+    print("Student is in the List")
+else:
+    print("Student Name is Missing!")
