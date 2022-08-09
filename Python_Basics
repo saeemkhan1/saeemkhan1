@@ -523,3 +523,108 @@ if findName in nameList:
     print("Student is in the List")
 else:
     print("Student Name is Missing!")
+
+
+
+
+# Write a Python Program to determine the Grade of the Subject, based on Marks
+
+sub1 = input("Enter Subject: \n")
+sub2 = input("Enter Subject: \n")
+sub3 = input("Enter Subject: \n")
+sub4 = input("Enter Subject: \n")
+sub5 = input("Enter Subject: \n")
+sub6 = input("Enter Subject: \n")
+
+subject = [sub1, sub2, sub3, sub4, sub5, sub6]
+print(subject)
+
+marks1 = int(input("Enter marks for " + sub1))
+
+if marks1 >= 90:
+    print("Marks for " + sub1 + " is Grade A+")
+elif marks1 >= 80:
+    print("Grade A")
+elif marks1 >= 70:
+    print("Grade B")
+elif marks1 >= 60:
+    print("Grade C")
+elif marks1 >= 50:
+    print("Grade D")
+else:
+    print("Grade F")
+
+marks2 = int(input("Enter marks for " + sub2))
+
+if marks2 >= 90:
+    print("Marks for " + sub2 + " is Grade A+")
+elif marks2 >= 80:
+    print("Marks for " + sub2 + " is Grade A")
+elif marks2 >= 70:
+    print("Marks for " + sub2 + " is Grade B")
+elif marks2 >= 60:
+    print("Marks for " + sub2 + " is Grade C")
+elif marks2 >= 50:
+    print("Marks for " + sub2 + " is Grade D")
+else:
+    print("Marks for " + sub2 + " is Grade F")
+
+marks3 = int(input("Enter marks for " + sub3))
+
+if marks3 >= 90:
+    print("Marks for " + sub3 + " is Grade A+")
+elif marks3 >= 80:
+    print("Marks for " + sub3 + " is Grade A")
+elif marks3 >= 70:
+    print("Marks for " + sub3 + " is Grade B")
+elif marks3 >= 60:
+    print("Marks for " + sub3 + " is Grade C")
+elif marks3 >= 50:
+    print("Marks for " + sub3 + " is Grade D")
+else:
+    print("Marks for " + sub3 + " is Grade F")
+
+marks4 = int(input("Enter marks for " + sub4))
+if marks4 >= 90:
+    print("Marks for " + sub4 + " is Grade A+")
+elif marks4 >= 80:
+    print("Marks for " + sub4 + " is Grade A")
+elif marks4 >= 70:
+    print("Marks for " + sub4 + " is Grade B")
+elif marks4 >= 60:
+    print("Marks for " + sub4 + " is Grade C")
+elif marks4 >= 50:
+    print("Marks for " + sub4 + " is Grade D")
+else:
+    print("Marks for " + sub4 + " is Grade F")
+
+marks5 = int(input("Enter marks for " + sub5))
+
+if marks5 >= 90:
+    print("Marks for " + sub5 + " is Grade A+")
+elif marks5 >= 80:
+    print("Marks for " + sub5 + " is Grade A")
+elif marks5 >= 70:
+    print("Marks for " + sub5 + " is Grade B")
+elif marks5 >= 60:
+    print("Marks for " + sub5 + " is Grade C")
+elif marks5 >= 50:
+    print("Marks for " + sub5 + " is Grade D")
+else:
+    print("Marks for " + sub5 + " is Grade F")
+
+
+marks6 = int(input("Enter marks for " + sub6))
+
+if marks6 >= 90:
+    print("Marks for " + sub6 + " is Grade A+")
+elif marks6 >= 80:
+    print("Marks for " + sub6 + " is Grade A")
+elif marks6 >= 70:
+    print("Marks for " + sub6 + " is Grade B")
+elif marks6 >= 60:
+    print("Marks for " + sub6 + " is Grade C")
+elif marks6 >= 50:
+    print("Marks for " + sub6 + " is Grade D")
+else:
+    print("Marks for " + sub6 + " is Grade F")
