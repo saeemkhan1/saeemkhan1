@@ -455,6 +455,25 @@ else:
     print("The biggest number is:", num4)
 
 
+# Write a Python Program to find out whether a student passed or Failed.
+# It requires Total 40% and individual 33% (total 3 Subjects)
+
+'''Logic:
+subject1 >33
+subject2 >33
+subject3 >33
+total = (s1+s2+s3)/3 >= 40 '''
+
+sub1 = int(input("Enter Subject 01 marks: \n"))
+sub2 = int(input("Enter Subject 02 marks: \n"))
+sub3 = int(input("Enter Subject 03 marks: \n"))
+
+totalMarks = (sub1+sub2+sub3)/3
+
+if sub1 > 33 and sub2 > 33 and sub3 > 33 and totalMarks >= 40:
+    print("Passed")
+else:
+    print("Failed")
 
 
     
