@@ -507,7 +507,6 @@ else:
   
 # Write a Python program to find out whether a name is in the List or not
 
-nameList = []
 a = input("Enter Student Name: \n")
 b = input("Enter Student Name: \n")
 c = input("Enter Student Name: \n")
