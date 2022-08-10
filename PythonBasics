@@ -544,15 +544,16 @@ marks1 = int(input("Enter marks for " + sub1))
 if marks1 >= 90:
     print("Marks for " + sub1 + " is Grade A+")
 elif marks1 >= 80:
-    print("Grade A")
+    print("Marks for " + sub1 + " is Grade A")
 elif marks1 >= 70:
-    print("Grade B")
+    print("Marks for " + sub1 + " is Grade B")
 elif marks1 >= 60:
-    print("Grade C")
+    print("Marks for " + sub1 + " is Grade C")
 elif marks1 >= 50:
-    print("Grade D")
+    print("Marks for " + sub1 + " is Grade D")
 else:
-    print("Grade F")
+    print("Marks for " + sub1 + " is Grade F")
+
 
 marks2 = int(input("Enter marks for " + sub2))
 
