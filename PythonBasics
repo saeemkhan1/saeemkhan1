@@ -683,11 +683,104 @@ for item in FruitList:
 for i in range(10):
     print(i)
 
-# Multiplication Table of a number
+
+##################################################
+# Multiplication Table of a number using For Loop
+##################################################
 
 number = int(input("Enter number: "))
 times = int(input("How many times: "))
 
-for times in range(1, times+1):
+for times in range(1, times + 1):
     print((number * times))
+
+################################################################
+# Multiplication Table of a number using For Loop (another way)
+################################################################
+
+number = int(input("Enter number: "))
+
+for times in range(1, 13):
+    '''printing using f strings'''
+    print(f"{number}X{times}={number * times}")
+
+##################################################
+# Write a Python program
+# to greet all the person names stored in a List
+# which starts with 'S'
+##################################################
+
+l1 = ["Harry", "Sam", "Steve", "John", "Tom", "Sarah"]
+for names in l1:
+    if names.startswith("S"):
+        print("Hello ", names)
+    else:
+        pass
+
+####################################################
+# Multiplication Table of a number using While Loop
+####################################################
+
+number = int(input("Enter number: "))
+count = 1
+while count <= 12:
+    print(f"{number}X{count}={number * count}")
+    count = count + 1
+
+############################################
+# Write a Python program
+# To find if a given number is Prime or not
+############################################
+number = int(input("Enter your number: "))
+
+for i in range(2, number):
+    if number % i == 0:
+        print("Not Prime")
+        break
+else:
+    print("Prime")
+
+############################################
+# Write a Python program
+# To add all natural number
+############################################
+naturalNumber = int(input("Enter the Number:\n"))
+
+sumOfAll = 0
+i = 1
+while i <= naturalNumber:
+    sumOfAll = sumOfAll + i
+    i = i + 1
+print("Total Sum of number = ", sumOfAll)
+
+#################################################################
+# Write a Python program to find the factorial of a given number
+# using For Loop
+#################################################################
+
+userNumber = int(input("Enter the number you want to find the factorial of : "))
+
+factorial = 1
+i = 1
+
+for item in range(i, userNumber+1):
+    factorial = factorial * i
+    i = i + 1
+print(f"Factorial of {userNumber} is {factorial}")
+
+#################################################################
+# Write a Python program to find the factorial of a given number
+# using While Loop
+#################################################################
+
+userNumber = int(input("Enter the number you want to find the factorial of : "))
+
+factorial = 1
+i = 1
+
+while i <= userNumber:
+    factorial = factorial * i
+    i = i + 1
+print(f"Factorial of {userNumber} is {factorial}")
+
 
