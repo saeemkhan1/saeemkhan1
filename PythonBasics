@@ -784,3 +784,33 @@ while i <= userNumber:
 print(f"Factorial of {userNumber} is {factorial}")
 
 
+
+##########################################################
+# Write a Python Program to print the following * Pattern
+#   *  *  *  *  *
+#   *  *  *  *  *
+#   *  *  *  *  *
+#   *  *  *  *  *
+#   *  *  *  *  *
+##########################################################
+
+n = int(input("Enter Number of Rows: "))
+for j in range(n):
+    for i in range(n):
+        print("*", end="  ")
+    print()
+
+##########################################################
+# Write a Python Program to print the following * Pattern
+#   *  *  *  *  *
+#   *  *  *  *
+#   *  *  *
+#   *  *
+#   *
+##########################################################
+n = int(input("Enter Number of Rows: "))
+for j in range(n):
+    for i in range(n):
+        print("*", end="  ")
+    n = n-1
+    print()
